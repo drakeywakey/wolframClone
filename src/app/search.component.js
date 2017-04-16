@@ -6,18 +6,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var SearchComponent = (function () {
+    function SearchComponent() {
     }
-    return AppComponent;
+    return SearchComponent;
 }());
-AppComponent = __decorate([
+SearchComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: 'my-app',
-        styleUrls: ['app.component.css'],
-        templateUrl: 'app.component.html'
+        selector: 'search-box',
+        styleUrls: ['search.component.css'],
+        templateUrl: 'search.component.html'
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], SearchComponent);
+exports.SearchComponent = SearchComponent;
+//# sourceMappingURL=search.component.js.map

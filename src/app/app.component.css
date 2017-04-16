@@ -3,3 +3,15 @@ header {
     display: flex;
     height: 40px;
 }
+
+section {
+    align-items: space-around;
+    display: flex;
+    justify-content: center;
+}
+
+search-box {
+    background: white;
+    height: 274px;
+    width: 832px;
+}
